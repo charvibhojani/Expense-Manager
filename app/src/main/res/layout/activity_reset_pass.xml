@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/img_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/img_reset" />
+
+    <ImageView
+        android:id="@+id/img_signin"
+        android:layout_width="300dp"
+        android:layout_height="90dp"
+        android:layout_below="@id/img_signup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/txt_reset" />
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_signin"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="5dp"
+            android:background="@drawable/ic_passcode1" />
+
+        <EditText
+            android:fontFamily="@font/montserratregular"
+            android:id="@+id/et_old_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/darkgray"
+            android:hint="Enter Old Password"
+            android:inputType="numberPassword"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/darkgray" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_signin"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="70dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="5dp"
+            android:background="@drawable/ic_passcode1" />
+
+        <EditText
+            android:fontFamily="@font/montserratregular"
+            android:id="@+id/et_new_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/darkgray"
+            android:hint="New Password"
+            android:inputType="numberPassword"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/darkgray" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_signin"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="120dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="5dp"
+            android:background="@drawable/ic_passcode1" />
+
+        <EditText
+            android:fontFamily="@font/montserratregular"
+            android:id="@+id/et_confirm_new"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/darkgray"
+            android:hint="Confirm Password"
+            android:inputType="numberPassword"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/darkgray" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/reset_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_below="@id/layout"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/btn_update" />
+
+
+</RelativeLayout>

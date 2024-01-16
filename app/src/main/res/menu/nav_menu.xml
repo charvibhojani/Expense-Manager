@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/home1"
+        android:icon="@drawable/ic_menu_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/addincome"
+        android:icon="@drawable/ic_menu_income"
+        android:title="Add Income" />
+    <item
+        android:id="@+id/addexpense"
+        android:icon="@drawable/ic_menu_expense"
+        android:title="Add Expense" />
+    <item
+        android:id="@+id/addcategory"
+        android:icon="@drawable/ic_menu_category"
+        android:title="Add Category" />
+    <item
+        android:id="@+id/alltransaction"
+        android:icon="@drawable/ic_menu_transaction"
+        android:title="All Transaction" />
+    <item
+        android:id="@+id/aboutus"
+        android:icon="@drawable/ic_menu_aboutus"
+        android:title="About Us" />
+
+</menu>

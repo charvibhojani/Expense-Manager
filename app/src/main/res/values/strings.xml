@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Expense Manager</string>
+    <string-array name="categoryarray">
+        <item> </item>
+        <item>Bussiness</item>
+        <item>Travel</item>
+        <item>Personal</item>
+        <item>Music</item>
+        <item>Food</item>
+        <item>Groceries</item>
+        <item>Electronic</item>
+        <item>Study</item>
+        <item>Health care</item>
+        <item>Sports</item>
+        <item>Bill</item>
+        <item>Rent</item>
+        <item>Shopping</item>
+        <item>Salary</item>
+        <item>Sabscription</item>
+    </string-array>
+
+    <string name="nav_open">opendrawer</string>
+    <string name="nav_close">closedrawer</string>
+</resources>
