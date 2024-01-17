@@ -49,8 +49,6 @@ public class ShowIncomeActivity extends Activity {
 
         MyConst.Total_Income = 0;
 
-//        Collections.reverseOrder();
-
         Cursor cursor = db.rawQuery("select * from " + dbHelper.TABLE_NAME + " ", null);
 
         if (cursor != null) {
